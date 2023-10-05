@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Build Project
-        run: npm build
+        run: npm run build
 
       - name: Config Github Setting
         run: |
